@@ -1,0 +1,9 @@
+Y:\Code\pokepartner\PokePartner\bin\Debug\netcoreapp3.0\appsettings.Development.json
+Y:\Code\pokepartner\PokePartner\bin\Debug\netcoreapp3.0\appsettings.json
+Y:\Code\pokepartner\PokePartner\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+Y:\Code\pokepartner\PokePartner\obj\Debug\netcoreapp3.0\PokePartner.csprojAssemblyReference.cache
+Y:\Code\pokepartner\PokePartner\obj\Debug\netcoreapp3.0\staticwebassets\PokePartner.StaticWebAssets.Manifest.cache
+Y:\Code\pokepartner\PokePartner\obj\Debug\netcoreapp3.0\staticwebassets\PokePartner.StaticWebAssets.xml
+Y:\Code\pokepartner\PokePartner\obj\Debug\netcoreapp3.0\PokePartner.AssemblyInfoInputs.cache
+Y:\Code\pokepartner\PokePartner\obj\Debug\netcoreapp3.0\PokePartner.AssemblyInfo.cs
+Y:\Code\pokepartner\PokePartner\obj\Debug\netcoreapp3.0\PokePartner.RazorTargetAssemblyInfo.cache
