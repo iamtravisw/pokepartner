@@ -6,10 +6,10 @@ namespace PokePartner.Api.Models
     public class TypesModel
     {
         [JsonProperty("damage_relations")]
-        public Result DamageRelations { get; set; }
+        public DamageResult DamageRelations { get; set; }
     }
 
-    public class Result
+    public class DamageResult
     {
         [JsonProperty("double_damage_from")]
         public List<DamageData> DoubleDamageFrom { get; set; }

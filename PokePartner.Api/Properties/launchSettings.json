@@ -1,9 +1,16 @@
 {
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49751/",
+      "sslPort": 0
+    }
+  },
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": false,
       "launchUrl": "type",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -11,7 +18,6 @@
     },
     "PokePartner": {
       "commandName": "Project",
-      "launchBrowser": false,
       "launchUrl": "type",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
