@@ -11,10 +11,16 @@ namespace PokePartner.Api.Controllers
     [ApiController]
     public class TypesController : ControllerBase
     {
+        private IPokeApiService _pokeApi;
+        public TypesController(IPokeApiService pokeApi)
+        {
+            _pokeApi = pokeApi;
+        }
+
         [HttpGet("defense/{type}")]
         public async Task<IActionResult> TypeChartAsDefender(string type)
         {
-            var api = await PokeServiceApi.RequestData($"type/{type}");
+            var api = await _pokeApi.RequestData($"type/{type}");
             var results = JsonConvert.DeserializeObject<TypesModel>(api);
 
             var noEffect = new List<string>();
@@ -53,7 +59,7 @@ namespace PokePartner.Api.Controllers
 
             foreach (var t in types)
             {
-                var apiType = await PokeServiceApi.RequestData($"type/{t}");
+                var apiType = await _pokeApi.RequestData($"type/{t}");
                 var resultsType = JsonConvert.DeserializeObject<TypesModel>(apiType);
 
                 foreach (var rt in resultsType.DamageRelations.DoubleDamageFrom)
@@ -72,7 +78,7 @@ namespace PokePartner.Api.Controllers
                 }
             }
 
-            var json = DualType.CalculateDamage(types, superEffectiveRaw, notVeryEffectiveRaw, noEffect);
+            var json = TypesCalculator.CalculateDamage(superEffectiveRaw, notVeryEffectiveRaw, noEffect);
             return Ok(json);
 
         }
@@ -80,7 +86,7 @@ namespace PokePartner.Api.Controllers
         [HttpGet("offense/{type}")]
         public async Task<IActionResult> TypeChartAsAttacker (string type)
         {
-            var api = await PokeServiceApi.RequestData($"type/{type}");
+            var api = await _pokeApi.RequestData($"type/{type}");
             var results = JsonConvert.DeserializeObject<TypesModel>(api);
 
             var noEffect = new List<string>();
@@ -110,7 +116,7 @@ namespace PokePartner.Api.Controllers
         [HttpGet("pokemon/{name}")]
         public async Task<IActionResult> PokemonTypeAsDefender(string name)
         {
-            var api = await PokeServiceApi.RequestData($"pokemon/{name}");
+            var api = await _pokeApi.RequestData($"pokemon/{name}");
             var results = JsonConvert.DeserializeObject<PokemonModel>(api);
             var types = new List<string>();
             var noEffect = new List<string>();
@@ -120,7 +126,7 @@ namespace PokePartner.Api.Controllers
             foreach (var r in results.Types)
             {
                 types.Add(r.TypesData.Name);
-                var apiType = await PokeServiceApi.RequestData($"type/{r.TypesData.Name}");
+                var apiType = await _pokeApi.RequestData($"type/{r.TypesData.Name}");
                 var resultsType = JsonConvert.DeserializeObject<TypesModel>(apiType);
 
                 foreach (var rt in resultsType.DamageRelations.DoubleDamageFrom)
@@ -139,8 +145,9 @@ namespace PokePartner.Api.Controllers
                 }
             }
 
-            var json = DualType.CalculateDamage(types, superEffectiveRaw, notVeryEffectiveRaw, noEffect);
+            var json = TypesCalculator.CalculateDamage(superEffectiveRaw, notVeryEffectiveRaw, noEffect);
             return Ok(json);
         }
+   
     }
 }

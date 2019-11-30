@@ -2,17 +2,18 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
-namespace PokePartner.Api
+namespace PokePartner.Api.Services
 {
-    public class DualType
+    public class TypesCalculator
     {
-        public static string CalculateDamage(List<string> types, List<string> SuperEffective, List<string> NotVeryEffective, List<string> NoEffect)
+        public static string CalculateDamage(List<string> SuperEffective, List<string> NotVeryEffective, List<string> NoEffect)
         {
 
             // Calculate Damage Differences
             List<string> superEffective = SuperEffective.Distinct().ToList();
-            IEnumerable<string> superEffectiveX4 = new List<string>(); 
+            IEnumerable<string> superEffectiveX4 = new List<string>();
 
             foreach (var type in SuperEffective.ToList())
             {
@@ -68,13 +69,13 @@ namespace PokePartner.Api
                 }
             }
 
-            foreach(var x in NoEffect)
+            foreach (var x in NoEffect)
             {
                 superEffectiveX2.Remove(x);
                 notVeryEffectiveHalf.Remove(x);
             }
 
-            string json = JsonConvert.SerializeObject(new { types, superEffectiveX4, superEffectiveX2, notVeryEffectiveHalf, notVeryEffectiveQuarter, NoEffect });
+            string json = JsonConvert.SerializeObject(new { superEffectiveX4, superEffectiveX2, notVeryEffectiveHalf, notVeryEffectiveQuarter, NoEffect });
 
             return json;
         }

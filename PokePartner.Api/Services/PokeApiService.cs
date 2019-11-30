@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace PokePartner.Api.Services
 {
-    public class PokeServiceApi
+    public class PokeApiService : IPokeApiService
     {
-        public static async Task<string> RequestData(String endpoint)
+        public async Task<string> RequestData(string endpoint) 
         {
             using (var client = new HttpClient())
             {
