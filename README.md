@@ -18,7 +18,7 @@
   * [Pokemon Forms](#)
   * [Pokemon Locations](#)
 * [Technology](#)
-  * [C#/ .NET Core 3.0](#)
+  * [C#/ .NET Core](#)
   * [Xamarin](#)
   * [DialogFlow](#)
   * [Google Cloud](#)
