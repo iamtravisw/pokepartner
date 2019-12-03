@@ -5,8 +5,12 @@
 
 ### Contents
 * [Features](#)  
-  * [ChromeOS](#)  
+  * [Google Assistant](#)  
+  * [Companion Application](#)  
 * [Commands](#)  
+  * [Types by Weakness (Defensive)](#)
+  * [Types by Attack (Offensive)](#)
+  * [Types by Pokemon](#)
 * [Roadmap](#)
 * [Technology](#)
 * [Contributing](#)
