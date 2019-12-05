@@ -12,7 +12,7 @@
   * [Types by Weakness](#)
 * [Roadmap](#)
   * [Companion Application](#)
-  * [Competetive Training (IVs/ EVs/ Stats)](#)
+  * [Competetive Training (IVs/ EVs/ Stats))](#)
   * [Items](#)
   * [Breeding](#)
   * [Evolutions](#)
@@ -28,10 +28,11 @@
   * [Data](#)
   * [Artwork](#)
 
-![PokePartner on Google Assistant](https://storage.googleapis.com/www.pokepartner.co/preview.gif)
-
 # General
 ## Google Assistant
+![PokePartner on Google Assistant](https://storage.googleapis.com/www.pokepartner.co/preview.gif)  
+
+
 ## Companion Application
 
 # Commands
