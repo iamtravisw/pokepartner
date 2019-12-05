@@ -35,8 +35,19 @@
 ## Companion Application
 
 # Commands
+All commands should start with "Ok Google, Ask PokéPartner." *Pronounced (Pokee Partner)*. Wait for PokéPartner to ask you a question, and then you can ask any of the following:  
+
+The words in **bold** must be used. The *italicized* word is the keyword.
+
 ## Types by Pokemon
+**What** is *Charizard* **weak** to?
+
 ## Types by Weakness
+### Single Type Pokemon
+What is **strong against** *Ice* **type Pokemon**?  
+
+### Dual Type Pokemon
+What are *Flying* **and** *Water* **type Pokemon** weak to?
 
 # Roadmap
 ## Companion Application
