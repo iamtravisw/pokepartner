@@ -1,0 +1,457 @@
+{
+  "id": "0f119ee3-42e1-4a18-9a07-13ccd6b7b3be",
+  "name": "DualType",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e2b83e68-ff46-482a-937e-708c62bb78e2",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "type1",
+          "value": "$type1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "dfe37e3f-f20e-448f-add2-b598d6a3900c",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "type2",
+          "value": "$type2",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "54515fbd-4ed4-4c21-b934-487dc28c68ff",
+      "data": [
+        {
+          "text": "What should I use against ",
+          "userDefined": false
+        },
+        {
+          "text": "bug",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "rock",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ae26e9c3-d5dd-4d0f-a786-bdcaafa35ecb",
+      "data": [
+        {
+          "text": "What should I not use against ",
+          "userDefined": false
+        },
+        {
+          "text": "dragon",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "fairy",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "669815c2-aab3-48ca-b902-f7d1c1bb752d",
+      "data": [
+        {
+          "text": "What's good against ",
+          "userDefined": false
+        },
+        {
+          "text": "ice",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "fire",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8f6d7ed6-6f4a-4aeb-be1c-161af86e87f5",
+      "data": [
+        {
+          "text": "What is ",
+          "userDefined": false
+        },
+        {
+          "text": "electric",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "flying",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type pokemon weak against?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2d7087a8-be67-4f24-93ba-ec81e0e66bd7",
+      "data": [
+        {
+          "text": "What are strong against ",
+          "userDefined": false
+        },
+        {
+          "text": "fairy",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "ice",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "592dd185-51b5-4cd8-b735-98809941f103",
+      "data": [
+        {
+          "text": "What is ",
+          "userDefined": false
+        },
+        {
+          "text": "psychic",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "dark",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type pokemon weak to?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cdd187e1-9187-4364-953a-d0f4ff774a72",
+      "data": [
+        {
+          "text": "What's the best to use against ",
+          "userDefined": false
+        },
+        {
+          "text": "water",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "bug",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ee651bed-099a-415c-8ab6-fe0e781f7ba1",
+      "data": [
+        {
+          "text": "What's super effective against ",
+          "userDefined": false
+        },
+        {
+          "text": "dark",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "fairy",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b11ff67a-551d-437d-966a-391ea3929626",
+      "data": [
+        {
+          "text": "What should I use against ",
+          "userDefined": false
+        },
+        {
+          "text": "grass",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "electric",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "44318f15-f3ae-479f-937c-fa34dc19d44e",
+      "data": [
+        {
+          "text": "What is strong against ",
+          "userDefined": false
+        },
+        {
+          "text": "fire",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "flying",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "415b483c-0849-4a21-96c1-f52286257193",
+      "data": [
+        {
+          "text": "What are ",
+          "userDefined": false
+        },
+        {
+          "text": "water",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "flying",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type pokemon weak against?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5697f913-7ab6-4abe-a784-af5d316ec523",
+      "data": [
+        {
+          "text": "What is ",
+          "userDefined": false
+        },
+        {
+          "text": "fire",
+          "alias": "type1",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "rock",
+          "alias": "type2",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon weak to?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

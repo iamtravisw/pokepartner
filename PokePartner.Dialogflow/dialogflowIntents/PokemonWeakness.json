@@ -1,0 +1,363 @@
+{
+  "id": "da1a4922-c60a-430c-b130-937194c7593a",
+  "name": "PokemonWeakness",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "80390559-641c-4e48-82a5-254af0da2139",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "pokemonName",
+          "value": "$pokemonName",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e889dfa5-8369-4ec0-8820-15d55dd60487",
+      "data": [
+        {
+          "text": "Who is ",
+          "userDefined": false
+        },
+        {
+          "text": "Pidgey",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " weak against?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b8b42828-9638-4fc0-8bed-ac9f954cc5d3",
+      "data": [
+        {
+          "text": "Who is ",
+          "userDefined": false
+        },
+        {
+          "text": "Bulbasaur",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " weak to?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "34a5b809-5aae-4a6d-9e21-a547dae951b7",
+      "data": [
+        {
+          "text": "Who is strong against ",
+          "userDefined": false
+        },
+        {
+          "text": "Raichu",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b0f752c2-eec3-46ab-85d9-b4d3cf18e2bd",
+      "data": [
+        {
+          "text": "Who is good against ",
+          "userDefined": false
+        },
+        {
+          "text": "Pikachu",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c9e1ba46-5f74-497e-a5fd-e661c489f945",
+      "data": [
+        {
+          "text": "What is super effective against ",
+          "userDefined": false
+        },
+        {
+          "text": "Cindaquil",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0d7d999f-1783-40e3-a023-27f28610c7e9",
+      "data": [
+        {
+          "text": "What is strong against ",
+          "userDefined": false
+        },
+        {
+          "text": "Snorlax",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1bac4004-1812-4b9d-b740-321ca72aee69",
+      "data": [
+        {
+          "text": "What is a good match up against ",
+          "userDefined": false
+        },
+        {
+          "text": "Gloomy",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4f4b9a5a-04c4-41ae-bcaa-497c6659dc1f",
+      "data": [
+        {
+          "text": "Mew",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " is weak to what?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b6cae0f7-74d3-4e7e-ba9f-78fd4c517abb",
+      "data": [
+        {
+          "text": "Mewtwo",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " is weak to what type of Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7c041644-d677-45e9-8e81-b65d5d2fd1e4",
+      "data": [
+        {
+          "text": "Who is strong against ",
+          "userDefined": false
+        },
+        {
+          "text": "Squirtle",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "772f2be5-f0f7-4c6d-8e06-63a2a8a0ba93",
+      "data": [
+        {
+          "text": "What's good against ",
+          "userDefined": false
+        },
+        {
+          "text": "Zapdos",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "159b88b8-d387-4a5f-85d0-03440048dbb8",
+      "data": [
+        {
+          "text": "What Pokemon should I use against ",
+          "userDefined": false
+        },
+        {
+          "text": "Ivysaur",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "169d28c7-ce21-44ad-a896-c65dd9b9cf51",
+      "data": [
+        {
+          "text": "What types of Pokemon are strong to ",
+          "userDefined": false
+        },
+        {
+          "text": "Charizard",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7ed8263c-fb96-4568-ae2f-eed0731f5779",
+      "data": [
+        {
+          "text": "What should I use against ",
+          "userDefined": false
+        },
+        {
+          "text": "Pikachu",
+          "alias": "pokemonName",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

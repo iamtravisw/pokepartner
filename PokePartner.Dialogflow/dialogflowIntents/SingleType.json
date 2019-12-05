@@ -1,0 +1,353 @@
+{
+  "id": "873b6d60-f42f-43c2-a72f-b6e84e132679",
+  "name": "SingleType",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "07528728-befc-4538-88ed-6875c765a969",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "type",
+          "value": "$type",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8f91eb8c-62ce-4201-a46c-c3648e6fbd5f",
+      "data": [
+        {
+          "text": "What should I use against ",
+          "userDefined": false
+        },
+        {
+          "text": "bug",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8fe75087-2591-4c4c-a118-a2802884caaa",
+      "data": [
+        {
+          "text": "What types of Pokemon are strong to ",
+          "userDefined": false
+        },
+        {
+          "text": "flying",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5a1ba7f4-bac4-4ab7-bcee-6184794845e3",
+      "data": [
+        {
+          "text": "What",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " should I not use against ",
+          "userDefined": false
+        },
+        {
+          "text": "dragon",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "894cc4f5-b6d8-4172-b7eb-7e8e46acc5bb",
+      "data": [
+        {
+          "text": "What's good against ",
+          "userDefined": false
+        },
+        {
+          "text": "ice",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2e764456-bf46-4edd-9262-40c6369793f5",
+      "data": [
+        {
+          "text": "What is ",
+          "userDefined": false
+        },
+        {
+          "text": "electric",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type pokemon weak against?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b1c4a722-4c90-49d5-bec4-24f525669422",
+      "data": [
+        {
+          "text": "What are strong against ",
+          "userDefined": false
+        },
+        {
+          "text": "fairy",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "abb0fe3c-7469-4492-b939-1b0bc80e2708",
+      "data": [
+        {
+          "text": "What is ",
+          "userDefined": false
+        },
+        {
+          "text": "psychic",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type pokemon to?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "42935642-e4fa-4f0d-8203-80ddf96a21bf",
+      "data": [
+        {
+          "text": "What's the best to use against ",
+          "userDefined": false
+        },
+        {
+          "text": "water",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "950f83d2-de28-427c-a735-25b1fd75d5af",
+      "data": [
+        {
+          "text": "What are ",
+          "userDefined": false
+        },
+        {
+          "text": "rock",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon weak to?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8a6705ce-718c-441a-b942-aef3f588ef49",
+      "data": [
+        {
+          "text": "What's super effective against ",
+          "userDefined": false
+        },
+        {
+          "text": "dark",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "08b73c53-38c8-4594-a31d-8bfd0e1c49b8",
+      "data": [
+        {
+          "text": "What should I use against ",
+          "userDefined": false
+        },
+        {
+          "text": "grass",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "54457f73-070c-4f2a-8345-40b9f8a4e236",
+      "data": [
+        {
+          "text": "What are ",
+          "userDefined": false
+        },
+        {
+          "text": "water",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon weak against?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "56e9f888-771f-411f-8f65-78f54cd90e22",
+      "data": [
+        {
+          "text": "What is strong against ",
+          "userDefined": false
+        },
+        {
+          "text": "fire",
+          "alias": "type",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " type Pokemon?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
