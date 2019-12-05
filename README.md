@@ -11,6 +11,7 @@
   * [Types by Pokemon](#)
   * [Types by Weakness](#)
 * [Roadmap](#)
+  * [Companion Application](#)
   * [Competetive Training (IVs/ EVs/ Stats)](#)
   * [Items](#)
   * [Breeding](#)
@@ -28,3 +29,34 @@
   * [Artwork](#)
 
 ![PokePartner on Google Assistant](https://storage.googleapis.com/www.pokepartner.co/preview.gif)
+
+# General
+## Google Assistant
+## Companion Application
+
+# Commands
+## Types by Pokemon
+## Types by Weakness
+
+# Roadmap
+## Companion Application
+## [Competetive Training (IVs/ EVs/ Stats
+## Items
+## Breeding
+## Evolutions
+## Pokemon Forms
+## Pokemon Locations
+
+# Technology
+## C# .NET Core  
+[.NET Core](https://dotnet.microsoft.com/download) is an open-source, general-purpose development platform maintained by Microsoft and the .NET community on GitHub. It's cross-platform (supporting Windows, macOS, and Linux) and can be used to build device, cloud, and IoT applications. 
+
+# Contribution
+PokePartner is currently accepting contributions. You may work on anything from the roadmap, everything is subject to a pull request before merging into develop. 
+
+# Extra Credit
+## Data
+All raw data is pulled from [PokeAPI](https://pokeapi.co).
+
+## Artwork
+All artwork is from [Pexels](https://pexels.com) with the exception of 'Pokemon Night' which is from [魔人 王](https://www.artstation.com/joker-sheep).
