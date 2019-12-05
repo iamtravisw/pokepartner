@@ -12,7 +12,6 @@
   * [Types by Weakness](#)
 * [Roadmap](#)
   * [Companion Application](#)
-  * [Competetive Training (IVs/ EVs/ Stats))](#)
   * [Items](#)
   * [Breeding](#)
   * [Evolutions](#)
@@ -41,7 +40,6 @@
 
 # Roadmap
 ## Companion Application
-## [Competetive Training (IVs/ EVs/ Stats
 ## Items
 ## Breeding
 ## Evolutions
